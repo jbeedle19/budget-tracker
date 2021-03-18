@@ -28,7 +28,7 @@ function saveRecord(record) {
 function uploadTransaction() {
     const transaction = db.transaction(['new_transaction'], 'readwrite');
     const transactionsObjectStore = transaction.objectStore('new_transaction');
-    const getAll = pizzaObjectStore.getAll();
+    const getAll = transactionsObjectStore.getAll();
     
     getAll.onsuccess = function() {
         if (getAll.result.length > 0) {

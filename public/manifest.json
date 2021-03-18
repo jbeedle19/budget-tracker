@@ -3,7 +3,7 @@
     "short_name": "iBudget",
     "description": "An app that allows you to budget your finances.",
     "background_color": "#01579b",
-    "theme_color": "#ffffff",
+    "theme_color": "#007fff",
     "start_url": "/",
     "display": "standalone",
     "icons": [
